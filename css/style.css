@@ -1,0 +1,394 @@
+body{
+	font-size: 14px
+}
+/*start header*/
+#logo{
+	background-image: url(../img/pw_maze_black_2X.png);
+	background-position: top;
+	background-repeat: repeat;
+	text-align: center;
+	padding:280px 0
+}
+#logo #header_content h1{
+    font-size: 50px;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: -1px;
+    line-height: 2
+}
+#logo #header_content h1,
+#portfolio .iso-image .item p,
+#client #client_img h5,
+#team .team_img h5,
+footer #footer_content{
+    text-transform: capitalize;
+}
+#logo #header_content p{
+    color: #bcbcbc;
+}
+#portfolio .portoflio_header p,
+#logo #header_content p{
+    margin: 0 0 50px 0;
+}
+#nav_header{position: relative;}
+#logo #header_content p ,
+#logo #header_content a,
+#nav_header .main-nav li a,
+#service .service_content .service_header h2,
+#service #servic_list ul li .icon_content h3,
+#feature #feature_content  h1,
+#portfolio .portoflio_header h1,
+#portfolio .iso-image .item h3,
+#client #client_img h4,
+#team h1, 
+#team .team_img h4,
+#business h1,
+#contacts form button,
+#contacts ul li h4{
+    text-transform: uppercase;
+}
+#logo #header_content a{
+    background: #7cc576;
+    text-decoration: none;
+    padding: 15px 35px;
+	display: inline-block;
+	border-radius: 5px;
+}
+#logo #header_content a,
+#nav_header #menu_button, 
+#contacts form button{
+	transition: all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+}
+#logo #header_content a:hover{
+	color: #7cc576;
+    background: #fff;
+}
+.delay-07s{
+	animation-delay: .7s;
+	animation-name: fadeInDown;
+}
+.delay-1s{
+	animation-delay: 1s;
+	animation-name: fadeInUp;
+	
+}
+/*end header*/
+/*start nav*/
+#nav_header{
+	box-shadow: 0px 4px 5px -3px #ccc;
+    border-bottom: 1px solid #ddd;
+}
+#nav_header .main-nav ,
+#nav_header #menu_button{
+	text-align: center;
+    padding: 0;
+    margin: 10px 0
+}
+#nav_header .main-nav li{
+	display: inline-block;
+	line-height: 70px
+}
+#nav_header .main-nav li a{
+	margin: 17px 35px;
+    color: #000;
+    text-decoration: none;
+}
+#nav_header #menu_button{
+	display: none;
+	width: 75px;
+    height: 75px;
+    margin: 10px auto;
+}
+#nav_header #menu_button i{
+	font-size: 40px;
+	color: #333
+}
+#nav_header #menu_button:hover i{
+	color: #7cc576;
+	cursor: pointer;
+}
+/*start services*/
+#service .service_content .service_header {
+	padding: 50px 0 0
+}
+#service .service_content .service_header h2,
+#feature #feature_content  h1,
+#portfolio .portoflio_header h1,
+#team h1{
+	font-size: 35px;
+	font-weight: 600;
+	color: #222
+}
+#service #servic_list ul li .icon_content h3,
+#service #servic_list ul li .icon_content h3,
+#logo #header_content a,
+#portfolio .portoflio_header p,
+#client #client_img h4,
+#team p{
+	font-size: 16px
+}
+#service .service_content .service_header p{
+	color: #888;
+	margin: 0 0 30px
+}
+#service #servic_list ul li .service_icon,
+#service #servic_list ul li .icon_content,
+#feature #feature_content  #feature_icon .media .media-left,
+#feature #feature_content  #feature_icon .media .media-body{
+	display: table-cell;
+}
+#service #servic_list ul li{
+	padding-bottom: 25px
+}
+#service #servic_list ul li .service_icon,
+#feature #feature_content  #feature_icon .media .media-left{
+	padding-right: 20px
+}
+#service #servic_list ul li .icon_content,
+#feature #feature_content  #feature_icon .media .media-body{
+	vertical-align: top;
+}
+#service #servic_list ul li .icon_content{
+	padding-right: 40px
+}
+#service #servic_list ul li .icon_content h3{
+	margin-top: 0;
+}
+#feature #feature_content #feature_icon .media .media-body h4,
+#service #servic_list ul li .icon_content h3,
+#portfolio .iso-image .item h3{
+	color: #222;
+}
+#service #servic_list ul li .icon_content p,
+#feature #feature_content  #feature_icon .media .media-body,
+#feature #feature_content  p{
+	line-height: 1.8;
+}
+#service #servic_list ul li .icon_content p,
+#feature #feature_content  #feature_icon .media .media-left a,
+#feature #feature_content #feature_icon .media .media-body,
+#feature #feature_content p,
+#portfolio .portoflio_header p,
+#portfolio .iso-image .item p,
+#team p,
+#team .team_img h5{
+	color: #888
+}
+#service .service_img img,
+#feature .feature_img img{
+	max-width: 100%;
+}
+/*start feature section*/
+#feature {padding: 100px 0}
+#feature #feature_content  {
+	padding: 0 10px
+}
+#feature #feature_content  #feature_icon .media .media-body{
+	padding-bottom: 10px
+}
+#feature #feature_content  p{
+	padding: 10px 0 20px
+}
+.iso-nav ul li{
+	display:inline-block; 
+	border-radius: 4px;
+	padding:10px;
+    background-color:#f7f7f7;
+    color: #222;
+    font-size: 14px;
+    letter-spacing: .3px;
+    padding: 6px 15px;
+    margin: 0 5px;
+    text-transform: uppercase;    
+}
+.iso-nav ul li,
+#portfolio .iso-image img{
+	transition: all 0.5s ;
+	-webkit-transition: all 0.5s;
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
+	-ms-transition:all 0.5s
+}
+.iso-nav ul li:hover{
+	background-color:#7cc576;
+	cursor:pointer;
+}
+.iso-nav ul .active,
+#logo_part{
+    background-color:#7cc576;
+}
+.iso-image div{
+	display:inline-block;
+	width:350px;
+	height:350px;
+	margin: 15px;
+	float: left;
+}
+ .iso-image  img{
+	max-width: 100%;
+}  	
+#portfolio .iso-image a:hover img{
+	opacity: .7;}
+#portfolio .iso-image .item h3{
+	font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+}
+#portfolio {
+	margin-bottom: 50px
+}
+/*start client*/
+.iso-nav ul .active,
+.iso-nav ul li:hover,
+#logo #header_content a,
+#logo #header_content h1,
+#client,
+#client #client_img h4,
+#client #client_img h5,
+#business h1{
+	color: #fff;
+
+}
+#client{
+	background-image: url(../img/section-bg1.jpg);
+	background-size: cover;
+}
+#client,
+#team{
+	padding: 50px 0;
+}
+#client a#quote{
+	border: 1px solid #7cc576;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+	font-size: 30px;
+	color: #7cc576;
+	display: block
+}
+a, a:hover{
+	text-decoration: none
+}
+#client p{
+	font-size: 28px;
+    margin: 30px 0;
+}
+#client #client_img h4{
+	margin: 15px 0 10px;
+}
+#client #client_img h5{
+	margin: 0
+}
+/*logo part*/
+
+#logo_part ul li{
+	display: inline-block;
+	padding: 20px 30px
+}
+/*team  */
+#team .team_img img{
+	max-width: 100%
+} 
+#team .team_img h4{
+	margin: 25px 0 10px
+}
+#team .team_img h5{
+	margin:0 0 30px
+}
+#team .team_disc p{
+	line-height: 1.7;
+}
+/*business*/
+#business{
+	background-image: url(../img/section-bg2.jpg);
+	background-size: cover;
+	padding: 70px 0
+}
+/*contacts*/
+#contacts{
+	padding: 80px 0
+}
+#contacts form .form-control{
+	margin-bottom: 15px
+}
+#contacts form button{
+	background: #7cc576;
+	color: #fff;
+	padding: 13px 20px;
+}
+#contacts form button:hover{
+	background: #222
+}
+#contacts ul li {
+	margin-bottom: 20px
+}
+#contacts ul li h4,
+#contacts ul li span{
+	display: table-cell
+}
+#contacts ul li h4{
+	padding-right: 30px;
+	font-size: 14px
+}
+#contacts ul li h4 i{
+	margin-right: 5px;
+	font-size: 16px
+}
+#contacts ul li span{
+	font-size: 16px;
+    padding: 0 30px 0 0;
+	color: #888;
+	line-height: 1.8
+}
+#contacts .social_media_list li{
+	display: inline-block;
+}
+.social_media_list{padding: 35px 0;}
+.social_media_list li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: #fff;
+    background: #222222;
+    border-radius: 50%;
+	transition: all 0.3s ease-in-out;
+	margin:0  5px 
+}
+.social_media_list li a i{
+	font-size: 25px
+}
+/*footer*/
+footer{
+	background-image: url(../img/pw_maze_black_2X.png);
+	padding: 50px 0;
+	color: #ccc;
+}
+footer #footer_content {
+	padding: 30px 0 0
+}
+footer #footer_content span,
+footer #footer_content p{
+	font-size: 14px
+}
+footer #footer_content p a{
+	font-weight: bold;
+	color: #7cc576
+}
+
+#nav_header.scroll_top{
+	left: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+    color: #000;
+    background: #fff;
+}
